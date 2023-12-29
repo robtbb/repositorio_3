@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/formata.css">
+    <title>Restaurante Delícia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url("https://imgs.search.brave.com/mJLK9iYnDsLurYmB9LOGOSYC9qFyrj6wC0xcXlWRbwY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25uYnJhc2lsLmNv/bS5ici92aWFnZW1l/Z2FzdHJvbm9taWEv/d3AtY29udGVudC91/cGxvYWRzL3NpdGVz/LzUvMjAyMi8wOC95/dS1yZXN0YXVyYW50/ZS1kZS1zcC5qcGc_/dz0xMDI0");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            height: 20pc ;
+        }
+
+        .banner {
+            background-image: url('restaurant-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .services {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .menu {
+            background-color: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .cta {
+            background-color: #333;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+       div.cta{
+        background-color: #2c2b2b;
+       }
+       div.menu{
+        background-color: #2c2b2b;
+       }
+       div.services{
+        background-color: #2c2b2b;
+       }
+       p{
+        color:rgba(253, 253, 253, 0.938);
+        font-weight: bolder;
+        font-size: 20px;
+       }
+    </style>
+</head>
+
+<body>
+    <form action="dados.php" method="POST">
+    <header>
+        <h1>Restaurante Delícia</h1>
+        <p>Se tudo na vida passa, então passa seu cartão black na nossa maquininha s2</p>
+    </header>
+
+    <div class="banner">
+        <h2>Descubra o Sabor da Nossa Cozinha</h2>
+    </div>
+
+    <div class="services">
+        <h2>Nossos Serviços</h2>
+        <p>Servimos pratos deliciosos feitos com ingredientes frescos e locais. Venha desfrutar de uma experiência gastronômica única.</p>
+    </div><br>
+
+    <div class="menu">
+        <h2>Menu</h2>
+        <p>Confira nosso cardápio variado, desde entradas saborosas até sobremesas irresistíveis.</p>
+        <a href="menu.html">
+        <button name="cardapio">Ver Cardápio Completo</button></a>
+    </div><br>
+
+    <div class="cta">
+        <h2>Reserve uma Mesa</h2>
+        <p>Desfrute de uma refeição incrível. Faça sua reserva agora e garanta seu lugar.</p>
+        <a href="reservations.html">
+        <button name="reserva">Reservar Agora</button></a>
+    </div>
+</form>
+</body>
+
+</html>

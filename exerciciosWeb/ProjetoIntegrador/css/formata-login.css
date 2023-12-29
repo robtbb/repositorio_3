@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto+Condensed&display=swap');
+/*
+body {
+      font-family: "Roboto Condensed";
+           margin: 0;
+ background-image: url("https://gazetadepinheiros.com.br/images/noticias/785/785163206.jpg");
+ background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h1 {
+          margin: 0;
+      text-align: center;
+   margin-bottom: 50px;
+   border-bottom: 1px solid #444444;
+background-color: rgb(230, 230, 230);
+     text-shadow: 1px 1px rgb(255, 255, 255);
+      box-shadow: 0 0 5px 5px rgb(40, 40, 40);
+}
+*/
+fieldset {
+           width: 50px;
+          margin: auto; 
+   margin-bottom: 30px;
+background-color: rgb(171, 247, 141);
+   border-radius: 10px;
+}
+
+label.alinha {
+        width: 10px;
+   text-align: right;
+margin-bottom: 10px;
+      display: inline-block;
+      font-size: 12px;
+}
+
+
+/*
+button {
+          height: 30px;
+          margin: auto;
+         display: block;
+       font-size: 20px;
+      margin-top: 30px;
+     font-weight: bold;
+     font-family: "Edu SA Beginner";
+background-color: #f19328;
+   border-radius: 10px;
+}
+*/
+
+
+/*
+input {
+  font-size: 16px;
+font-family: "Edu SA Beginner";
+ 
+}
+*/
+
+
+p {
+           width: 50%;
+      text-align: center;
+      box-shadow: 5px 5px 5px rgba(40, 40, 40, 0.5);
+          margin: auto;
+background-color: #fce770;
+}
+
+span {
+     color: rgb(247, 54, 54);
+font-style: italic; /*itálico na fonte*/
+}
+

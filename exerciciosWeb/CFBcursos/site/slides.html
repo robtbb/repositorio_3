@@ -1,0 +1,41 @@
+
+
+    <!-- Imagem Panorâmica 1 -->
+    <img id="s1" src="https://via.placeholder.com/800x300" alt="Imagem Panorâmica 1">
+
+    <!-- Imagem Panorâmica 2 -->
+    <img id="s2" src="https://via.placeholder.com/800x300" alt="Imagem Panorâmica 2">
+
+    <!-- Imagem Panorâmica 3 -->
+    <img id="s3" src="https://via.placeholder.com/800x300" alt="Imagem Panorâmica 3">
+
+    <!-- Imagem Panorâmica 4 -->
+    <img id="s4" src="https://via.placeholder.com/800x300" alt="Imagem Panorâmica 4">
+
+    <!-- Imagem Panorâmica 5 -->
+    <img id="s5" src="https://via.placeholder.com/800x300" alt="Imagem Panorâmica 5">
+
+    <script>
+        var slides = ["#s1", "#s2", "#s3", "#s4", "#s5"];
+        var slideAtual = 0;
+        var slideMax = 4;
+        var tempo = 10000; /*equivale a 10s*/
+
+        $(document).ready(function () {
+            $(slides[slideAtual]).fadeTo(1000, 0);
+            setInterval(troca, tempo);
+
+            function troca() {
+                $(slides[slideAtual]).fadeTo(1000, 0);
+                slideAtual++;
+
+                /*verifica quando chega ao final dos slides e cria um loop*/
+                if (slideAtual > slideMax) {
+                    slideAtual = 0;
+                }
+
+                $(slides[slideAtual]).fadeTo(1000, 1);
+            }
+        });
+    </script>
+

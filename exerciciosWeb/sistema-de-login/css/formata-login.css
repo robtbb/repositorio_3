@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body{
+    background-image: url("https://th.bing.com/th/id/R.3080083aeb701a7975cf2f296c517401?rik=EmtjqHb0SEvDUg&riu=http%3a%2f%2forig03.deviantart.net%2f89ce%2ff%2f2011%2f311%2fe%2fe%2fmario_wallpaper_by_lecatinga-d4fegsc.jpg&ehk=fXp9XZAwfYPX7WE4mWDdqzc3xd920hNtTzomyIEjgYw%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    background-color: rgb(195, 195, 204);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+form{}
+
+label.titulo{
+    text: center;
+    font-size: 30px;
+    font-family: "Pixelify Sans";
+    margin-bottom: 60px;
+}
+label.alinha{
+    
+}
+
+legend{
+    text-align: center;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+fieldset{
+    width: 50px;
+    margin: auto;
+    background-color: rgb(132, 156, 235);
+}
